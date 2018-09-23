@@ -1,0 +1,144 @@
+/*Paleta de colores
+#0DFFF3  oscuro
+#0CE89F
+#00FF62  base
+#0CE822
+#43FF0D   claro
+*/
+
+html{
+    font-family: 'Noto Serif', serif;
+}
+
+
+
+.content{
+    max-width: 960px;
+    max-height: 600px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0,0, 18) 0 3px 6px rgba(0,0,0,18);
+    position: relative;
+    padding: 1.5em;
+    border-radius: 12px;
+    overflow: scroll;
+    
+}
+.container{
+    background: #52c234;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+     to left,
+     #061700,
+     #52c234
+    );    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+    to left,
+     #061700,
+     #52c234
+     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+.table{
+    width: 100%;
+    border-spacing: 1;
+    padding: 20px;
+}
+
+.table td
+.table th{
+    padding: 20px;
+    text-align: center;
+}
+.table tr:nth-child(even){
+    background-color: #62E394;
+}
+
+.inline{
+    width: 400px;
+    height: 240px;
+    display: inline-block;
+    
+}
+.center{
+    text-align: center;
+    
+    
+}
+
+.underline{
+    border-bottom:solid 5px darkgreen;
+    padding-bottom: 20px;
+}
+.position{
+    background-color: darkgreen;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 5px;
+    color:goldenrod;
+}
+
+.actions{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+.close{
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: darkgreen;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0,0, 18) 0 3px 6px rgba(0,0,0,18);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tittle{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title-item{
+    text-transform: uppercase;
+    text-align: center;    
+    
+    border-radius: 12px;
+    background-color:white;
+
+}
+
+.bordes{
+    border: solid 1px black;
+    padding: 35px;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color:rgba(252, 252, 252, 0.548);
+}
+
+.bordescam{
+    border: solid 3px goldenrod;
+    padding: 35px;
+    padding: 7px;
+    font-size: 15px;
+
+
+}
+
+.h4{
+    background-color: white;
+    color:darkred;
+    border: solid 3px black;
+
+}
+
+.hechi{
+    align-items: center;
+}
